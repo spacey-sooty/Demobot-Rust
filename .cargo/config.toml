@@ -1,0 +1,14 @@
+[profile.release]
+lto = true
+strip = "debuginfo"
+
+[build]
+target = "arm-unknown-linux-gnueabi"
+
+[target.arm-unknown-linux-gnueabi]
+linker = "/home/spacey_sooty/wpilib/2023/roborio/bin/arm-frc2023-linux-gnueabi-gcc"
+rustflags = [
+    "-C",
+    "target-cpu=cortex-a9",
+]
+

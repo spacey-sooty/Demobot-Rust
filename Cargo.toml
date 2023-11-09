@@ -6,3 +6,9 @@ edition = "2021"
 [dependencies]
 robot_rs = { version = "0.1.0", path = "../robot.rs/robot_rs" }
 nt4_rs = { version = "0.1.0", path = "../robot.rs/nt4_rs" }
+
+[package.metadata.frc]
+team-number = 4788
+rio-address = "10.1.14.2"
+target-dir = "./target"
+executable-name = "demobot_rs"
