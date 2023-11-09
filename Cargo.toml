@@ -1,0 +1,8 @@
+[package]
+name = "demobot_rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+robot_rs = { version = "0.1.0", path = "../robot.rs/robot_rs" }
+nt4_rs = { version = "0.1.0", path = "../robot.rs/nt4_rs" }
